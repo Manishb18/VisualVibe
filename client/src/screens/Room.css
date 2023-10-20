@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.roomHero{
+        background: linear-gradient(to bottom, #000000, #333333);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+        gap: 10px;
+        font-family: Arial, sans-serif;
+}
+.roomBtn{
+    width: 15vw;
+    height: 4vh;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.streamWindows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.stream{
+    display: flex;
+    flex-direction: column;
+}
+
+.streamWindow1{
+    height: 20vh;
+    width: 10vw;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.stream-heading{
+    align-self: center;
+}
